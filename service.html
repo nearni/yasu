@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>服務項目</title>
+  <style>
+    /* RESET + 字體 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Noto Sans TC", sans-serif;
+      background-color: #1f1f1f; /* 工業黑 */
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #f9a825; /* 工業黃點綴 */
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #ffd740;
+    }
+
+    /* Header */
+    header {
+      background-color: #263238; /* 鐵灰 */
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom: 4px solid #f9a825;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #b0bec5;
+    }
+
+    /* Nav */
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #37474f;
+      border-bottom: 2px solid #f9a825;
+    }
+
+    nav a {
+      padding: 15px 25px;
+      font-weight: bold;
+    }
+
+    /* Main content */
+    main {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .intro {
+      background-color: #2e2e2e;
+      padding: 30px;
+      border-left: 5px solid #f9a825;
+      margin-bottom: 40px;
+    }
+
+    .intro h2 {
+      color: #f9a825;
+      margin-bottom: 15px;
+    }
+
+    .intro p {
+      color: #cfd8dc;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .service-card {
+      background-color: #333;
+      padding: 25px;
+      border-left: 5px solid #f9a825;
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-card h3 {
+      margin-bottom: 10px;
+      color: #ffd740;
+    }
+
+    .service-card p {
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #263238;
+      color: #90a4ae;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85rem;
+      margin-top: 50px;
+      border-top: 2px solid #f9a825;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>專業水電與工業設備工程</h1>
+    <p>配管｜電信｜照明｜太陽熱能｜設備零售</p>
+  </header>
+
+  <nav>
+    <a href=“index.html">首頁</a>
+    <a href="index.html">公司簡介</a>
+    <a href="service.html">服務項目</a>
+   
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h2>我們的使命</h2>
+      <p>致力於提供高品質的水電工程與工業設備解決方案，從配管、網路佈線到綠能設備安裝，服務對象涵蓋住宅、商辦與產業工廠。</p>
+    </section>
+
+    <section class="services">
+      <div class="service-card">
+        <h3>配管工程</h3>
+        <p>室內外水電管路設計與施工，符合建築安全與效能規範。</p>
+      </div>
+
+      <div class="service-card">
+        <h3>電信與網路佈線</h3>
+        <p>機房架設、網路線路、電話與監控系統整合施工。</p>
+      </div>
+
+      <div class="service-card">
+        <h3>照明設備</h3>
+        <p>節能照明規劃、LED安裝，支援室內外各類場域。</p>
+      </div>
+
+      <div class="service-card">
+        <h3>太陽熱能系統</h3>
+        <p>提供住宅與商業熱水系統的設計、設備與安裝。</p>
+      </div>
+
+      <div class="service-card">
+        <h3>設備供應</h3>
+        <p>提供網通、電器與工業設備銷售與維護建議。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 順耀事業有限公司 | 專業 × 安全 × 效率
+  </footer>
+
+</body>
+</html>
