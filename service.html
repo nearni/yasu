@@ -109,6 +109,39 @@
       font-size: 0.95rem;
       color: #ccc;
     }
+    .gallery-card {
+      background-color: #f8fbfd;
+      border: 1px solid #d0e3ec;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+
+    .gallery-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .gallery-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .gallery-card .info {
+      padding: 1rem;
+    }
+
+    .gallery-card h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.1rem;
+      color: #2c3e50;
+    }
+
+    .gallery-card p {
+      font-size: 0.95rem;
+      color: #444;
+    }
 
     /* Footer */
     footer {
@@ -144,32 +177,40 @@
 
     <section class="services">
       <div class="service-card">
+        <div class="gallery-card">
          <img src="./images/Piping engineering.jpg" alt="配管工程">
         <div class="info">
         <h3>配管工程</h3>
         <p>室內外水電管路設計與施工，符合建築安全與效能規範。</p>
+          </div>
       </div>
 
       <div class="service-card">
+        <div class="gallery-card">
          <img src="./images/com.jpg" alt="電信與網路佈線">
         <div class="info">
         <h3>電信與網路佈線</h3>
         <p>機房架設、網路線路、電話與監控系統整合施工。</p>
       </div>
+        </div>
 
       <div class="service-card">
+         <div class="gallery-card">
          <img src="./images/ighting equipment.jpg" alt="照明設備">
         <div class="info">
         <h3>照明設備</h3>
         <p>節能照明規劃、LED安裝，支援室內外各類場域。</p>
       </div>
+         </div>
 
       <div class="service-card">
+         <div class="gallery-card">
          <img src="./images/solarenergy.jpg" alt="太陽熱能系統">
         <div class="info">
         <h3>太陽熱能系統</h3>
         <p>提供住宅與商業熱水系統的設計、設備與安裝。</p>
       </div>
+         </div>
 
       <div class="service-card">
         <div class="info">
